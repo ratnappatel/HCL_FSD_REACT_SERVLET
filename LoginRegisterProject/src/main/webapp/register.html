@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body >
+<center>
+<h1>New User Can Register Here..</h1>
+<form method="post" action="http://localhost:9099/LoginRegisterProject/register">
+	Enter FullName<input type=text name="name"><br><br>
+	Enter User Name<input type=text name="uname"><br><br>
+	Enter Your Address<textarea name="address" rows=5 cols="50" >
+	</textarea><br><br>
+	Select Gender<input type="radio" name="gender" value="female">Female&nbsp;&nbsp;&nbsp;
+	<input type="radio" name="gender" value="male">Male<br><br>
+	Select Country<select name="country">
+		<option selected value="IN">India</option>
+		<option value="usa">United States</option>
+		<option value="uk">United Kingdom</option>
+		<option value="ban">Bangladesh</option>
+	</select><br><br>
+	Select Languages You know
+	<input type="checkbox" name="language" value="Hindi">Hindi
+	<input type="checkbox" name="language" value="Tamil">Tamil
+	<input type="checkbox" name="language" value="Kanada">Kanada
+	<input type="checkbox" name="language" value="Gujarati">Gujarati<br><br>
+	<input type=submit value="Register">
+	
+	
+</form>
+</center>
+</body>
+</html>
